@@ -79,11 +79,11 @@ These materials were selected due to their high amount of available experimental
 
 ### IN718 Experimental S-N Curves
 
-![IN718 S-N Curve](ti64_sn_curve.png)
+![IN718 S-N Curve](IN718_sn_curve.png)
 
 ### AlSi10Mg Experimental S-N Curves
 
-![AlSi10Mg S-N Curve](ti64_sn_curve.png)
+![AlSi10Mg S-N Curve](AlSi10Mg_sn_curve.png)
 
 ---
 
