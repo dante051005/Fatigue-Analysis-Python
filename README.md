@@ -1,24 +1,92 @@
-# Fatigue Analysis in Additive Manufacturing | Python & Materials Science
+# Fatigue Analysis for Additive Manufacturing Materials
 
-## 📌 Overview
-This project focuses on the automated processing and statistical analysis of experimental fatigue data for components manufactured via additive manufacturing. The primary goal was to quantify how different heat treatments affect mechanical integrity and durability.
+Engineering data analysis project focused on experimental fatigue behavior in metallic alloys manufactured through Additive Manufacturing (AM).
+The project combines Python-based data processing, statistical analysis, and fatigue visualization techniques to study the influence of manufacturing parameters, thermal treatments, and surface finishing on fatigue life.
 
-## 🛠️ Tech Stack
-- **Language:** Python
-- **Libraries:** Pandas (Data manipulation), Matplotlib & Seaborn (Visualization), NumPy.
-- **Tools:** Excel Database Management.
+---
 
-## 🚀 Key Features & Results
-- **Automation:** Developed scripts to process large experimental datasets, reducing manual analysis time and human error.
-- **Data Visualization:** Generated comparative S-N curves (Stress vs. Cycles) to identify the most efficient thermal treatments.
-- **Statistical Precision:** Optimized manufacturing parameter selection, achieving high correlation between experimental data and analytical models.
-- **Efficiency:** Streamlined the creation of technical quality reports by automating repetitive calculations.
+## 📌 Objective
 
-## 🧠 Engineering Challenges
-- **Library Adaptation:** Overcame the learning curve of specialized Python libraries (Pandas/NumPy) to implement advanced data cleaning and statistical functions.
-- **Database Integration:** Managed complex data structures from Excel to ensure seamless integration with Python scripts.
+Analyze experimental fatigue datasets from additively manufactured metallic materials in order to identify relationships between processing conditions and fatigue performance.
 
-## 📂 Repository Structure
-- `/scripts`: Main Python analysis files.
-- `/data`: Sample experimental datasets (anonymized).
-- `/results`: Automatically generated comparative charts.
+The study focused primarily on:
+* Ti-6Al-4V
+* IN718
+* AlSi10Mg
+
+These materials were selected due to their high amount of available experimental data.
+
+---
+
+## 🛠️ Tools and Libraries
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Statsmodels
+* Scipy Stats
+* Google Colab
+
+---
+
+## 🚀 Project Workflow
+
+### 1. Dataset Preparation
+
+* Cleaning and standardization of Excel datasets
+* Removal of inconsistent characters and formatting
+* Column normalization for automated processing
+
+### 2. Exploratory Data Analysis
+
+* Material and process classification
+* Experimental data organization
+* Identification of dominant manufacturing parameters
+
+### 3. Fatigue Analysis
+
+* Generation of S-N curves
+* Basquin trend analysis
+* Comparative visualization between:
+
+  * Surface finishes
+  * Thermal treatments
+  * Manufacturing processes
+
+### 4. Statistical Evaluation
+
+* P-value based correlation analysis
+* Evaluation of parameter significance on fatigue behavior
+
+---
+
+## 🧠 Key Findings
+
+* Surface finishing showed a strong influence on fatigue life across all analyzed materials.
+* Machined and polished samples generally exhibited improved fatigue performance compared to as-built conditions.
+* Ti-6Al-4V showed significant sensitivity to thermal treatment temperature.
+* IN718 and AlSi10Mg presented more stable behavior under thermal treatment variations.
+
+---
+
+## Example Visualizations
+
+### Ti-6Al-4V Experimental S-N Curves
+
+![Ti64 S-N Curve](ti64_sn_curve.png)
+
+### IN718 Experimental S-N Curves
+
+![IN718 S-N Curve](ti64_sn_curve.png)
+
+### AlSi10Mg Experimental S-N Curves
+
+![AlSi10Mg S-N Curve](ti64_sn_curve.png)
+
+---
+
+## Engineering Context
+
+This repository is part of my mechanical engineering technical portfolio and reflects the application of programming and data analysis tools to materials engineering and fatigue analysis problems.
