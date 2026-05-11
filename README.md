@@ -1,7 +1,7 @@
 # Fatigue Analysis in Additive Manufacturing | Python & Materials Science
 
 ## 📌 Overview
-This project focuses on the automated processing and statistical analysis of experimental fatigue data for components manufactured via 3D printing. The primary goal was to quantify how different heat treatments affect mechanical integrity and durability.
+This project focuses on the automated processing and statistical analysis of experimental fatigue data for components manufactured via additive manufacturing. The primary goal was to quantify how different heat treatments affect mechanical integrity and durability.
 
 ## 🛠️ Tech Stack
 - **Language:** Python
